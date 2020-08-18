@@ -1,0 +1,225 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<title>NASA Memos Main Menu</title>
+<link rel="stylesheet" type="text/css" media="screen" href="css/everyone.css">
+
+<style type="text/css" media="screen">@import url("css/style.css");
+</style>
+<!--[if gte IE 5]>
+<style type="text/css" media="screen">@import url("css/style_iefixes.css");
+</style>
+<![endif]-->
+
+<link rel="stylesheet" type="text/css" media="print" href="css/print.css">
+<link rel="stylesheet" type="text/css" media="handheld" href="css/handheld.css">
+
+<meta http-equiv="Content-type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="MSSmartTagsPreventParsing" content="true">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="doc-class" content="Living Document">
+
+
+<script language="JAVASCRIPT" type="TEXT/JAVASCRIPT">
+	<!-- Hide script from old browsers
+
+	function edit(id) {
+		location.href="NPL_insert.cfm?type=edit&id=" + id;
+	}	
+	
+	function trydelete(id) {
+		location.href="NPL_action.cfm?type=delete&id=" + id;
+	}
+	
+	function check(insertForm) {
+	  if (insertForm.Classification.value == "") {
+	    alert("You must enter a value for the document classification.")
+		insertForm.Classification.focus()
+		return false;
+	  }
+	  if (insertForm.Serial.value == "") {
+	    alert("You must enter a value for the document serial.")
+		insertForm.Serial.focus()
+		return false;
+	  }
+	  if (insertForm.Subject.value == "") {
+	    alert("You must enter a subject.")
+		insertForm.Subject.focus()
+		return false;
+	  }
+	  if (insertForm.month.value == "") {
+	    alert("You must enter a month.")
+		insertForm.month.focus()
+		return false;
+	  }
+	  if (insertForm.date.value == "") {
+	    alert("You must enter a date.")
+		insertForm.date.focus()
+		return false;
+	  }
+	  if (insertForm.year.value == "") {
+	    alert("You must enter a year.")
+		insertForm.year.focus()
+		return false;
+	  }
+	  if (insertForm.OPR.value == "") {
+	    alert("You must enter an OPR.")
+		insertForm.OPR.focus()
+		return false;
+	  }
+	  if (insertForm.name.value == "") {
+	    alert("You must provide a point of contact.")
+		insertForm.name.focus()
+		return false;
+	  }
+	  if (insertForm.memo_load.value == "") {
+	    alert("You must select a file to be uploaded.")
+		insertForm.memo_load.focus()
+		return false;
+	  }
+	  if (insertForm.file_format.value == "") {
+	    alert("You must select a file extension.")
+		insertForm.file_format.focus()
+		return false;
+	  }
+	  return true;
+	}
+	
+function SearchTip() {
+  searchWin = window.open("../../restricted_directives/library/search_tips.html","searchWin","scrollbars=yes,width=400,height=475,top=5,left=150")
+}
+
+
+	// End hiding script from old browsers -->
+</script>
+</head>
+<body id="oneon" class="lnfouron">
+<div id="paper">
+
+<div id="nasahead"><a href="http://www.nasa.gov" target="_blank"><img src="images/nasa_header_logo1.gif" alt="NASA Logo, National Aeronautics and Space Administration" width="300" height="65"></a>
+
+	<div class="hidden"><a href="#skipping" title="Skip Navigation" accesskey="2">Skip Navigation (press 2)</a></div>
+
+	<div id="nasaheadlinks"><ul>
+			<li><a href="http://www.nasa.gov/" target="_blank">+ NASA Portal</a></li>
+			<li><a href="http://nodis3.gsfc.nasa.gov/" target="_blank">+ NODIS Library</a></li>
+			<li><a href="http://nodis-dms.gsfc.nasa.gov/" target="_blank">+ NODIS DMS</a></li>
+			<li id="homeone"><a href="/nasa_template/" title="NASA TEMPLATES"><span>+ Home</span></a></li>
+		</ul>
+	</div>
+
+<div id="searchbox"><h3>Search NASA Memos:</h3><form name="search" id="search" action="NASAMemos_search.cfm" method="post">
+	<input type="text" size="12" name="criteria" maxlength="20" title="searchfield" value="Keywords">
+	<input type="image" src="images/button_go.gif" alt="Submit Search" class="submitit">
+	</form>
+	</div>
+</div>
+
+
+
+
+<div id="menu"><ul>
+		<li id="two"><a href="../charters/nc_list.cfm"><span>NASA Advisory Charters</span></a></li>
+		<li id="three"><a href="../ITS-HB/ITS-HB_list.cfm"><span>ITS-HBs</span></a></li>
+		<li id="four"><a href="../memos/NASAMemos_list.cfm"><span></span></a></li>
+		<li id="five"><a href="../NITR/NITR_list.cfm"><span>NITRs</span></a></li>
+		<li id="one"><a href="../memos/NASAMemos_list.cfm"><span>NASA Memos</span></a></li>
+		</ul>
+</div>		
+<div id="headimage">
+	<img src="images/nasamemos.gif" alt="NASA Memos" width="730" height="121"></div>
+<div class="clear"></div>
+
+<div id="contentwrapper"><!-- Content Wrapper, this div surrounds the main content and the Left Nav -->
+	<div id="singlecolumn">
+<!-- 
+**********************************
+**** START MAIN CONTENT HERE. ****
+**********************************
+-->	
+
+
+
+<!--
+**********************************
+**** START MAIN CONTENT HERE. ****
+**********************************
+-->
+
+
+
+
+
+
+<table width="100%" border="0">
+<tbody><tr>
+	<td align="center"><strong><font face="tahoma">SEARCH RESULTS</font></strong></td>
+</tr>
+<tr>
+	<td height="35"></td>
+</tr>
+
+</tbody></table>
+
+
+<table>
+	<tbody><tr>
+		<td></td>
+		<td valign="bottom"><font face="Tahoma" color="006699"><b>Search Documents:</b></font></td>
+		<td><form method="post" action="NASAMemos_search.cfm"><input type="Text" size="50" maxlength="50" name="criteria" value="">&nbsp;&nbsp;<input type="Submit" value="GO"></form></td>
+		<td>&nbsp;&nbsp;<font face="Tahoma" color="333399"><a href="javascript:SearchTip()">Search Tips</a></font></td>
+	</tr>
+</tbody></table>
+<pre></pre>
+
+<pre></pre>
+<p><font face="Tahoma"><b>No records were found containing <font color="ff0000">
+		</font><font><script>prompt(document.domain);</font>. Please try again.</b></font>
+
+</p><pre></pre>
+<a href="..\memos_restricted\NASAMemos_list.cfm">Return to Admin page</a>
+<pre></pre>
+<table>
+	<tbody><tr>
+		<td></td>
+		<td colspan="2">
+			<font color="ff0000" face="Tahoma"><b>0</b></font>
+			<font face="Tahoma" color="006699"><b>document(s) were found containing search criteria:</b></font>
+			<font color="ff0000"><b>
+		</b></font><script>prompt(document.domain);</script></font>
+<b><font></font></b>
+		</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+</tbody></table>
+
+
+<br>
+<div align="center">
+<table width="100%" align="center" cellspacing="2" cellpadding="2" border="0">
+<tbody><tr>
+	<td>&nbsp; </td>
+	<td nowrap="">[&nbsp;&nbsp;&nbsp;<a href="http://nodis.gsfc.nasa.gov">NODIS library</a>&nbsp;&nbsp;&nbsp;|&nbsp;</td>
+	<td nowrap=""><a href="http://www.nasa.gov/index.html">NASA Homepage</a>&nbsp;&nbsp;&nbsp;|&nbsp;</td>
+	<td nowrap=""><a href="http://www.hq.nasa.gov/">HQ Homepage</a>&nbsp;&nbsp;&nbsp;|&nbsp;</td>
+	<td nowrap=""><a href="http://oim.hq.nasa.gov/oia/msd/">Mission Support Directorate</a>&nbsp;&nbsp;&nbsp;]</td>
+	<td>&nbsp;</td>
+
+</tr>
+</tbody></table></div>
+<br>
+
+<font face="Tahoma">Responsible Official: <a href="mailto:nanette.jennings@nasa.gov">Nanette Smith</a>, (202) 358-0819<br>
+NASA Headquarters/Mission Support Directorate, Washington, DC 20546-0001, USA.<br>
+E-mail Curator: <a href="mailto:cheryl.e.parker@nasa.gov">Cheryl Parker</a>.<br>
+    Last Updated: <i></i></font>
+
+
+
+</div></div></div>"&gt;<script>prompt(document.domain);</script></body></html>
